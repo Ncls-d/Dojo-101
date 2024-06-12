@@ -3,10 +3,10 @@
 
 ## Concepts
 
-**Data** : Analyse et Statistiques
-**Machine learning** : Apprentissage et modèles prédictifs / probabilistes
-**IA** simule l'intelligence humaine à partir du ML
-**Word Embedding** : éthode de représentation des mots pour l’apprentissage automatique
+* **Data** : Analyse et Statistiques
+* **Machine learning** : Apprentissage et modèles prédictifs / probabilistes
+* **IA** simule l'intelligence humaine à partir du ML
+* **Word Embedding** : éthode de représentation des mots pour l’apprentissage automatique
 
 
 ### Principe du Word Embedding
@@ -23,8 +23,9 @@ Résultat: À la fin de ce processus, chaque mot est représenté par un vecteur
 ### protection du model
 
 * Informer de spécificité de la mission / requete
-* Préciser répondre en tant que <...>
-* Donner des tâches 1,2,3...
+* Préciser `répondre/agir en tant que <metier> ou <outil de traduction python vers .NET>`
+* rester en anglais :  `act as <...>`
+* Donner des tâches `1. <...>, 2. <...>, 3. <...>`
 
 
 ## Chat GPT - OpenAI / Microsoft - Copilot
@@ -33,9 +34,11 @@ Résultat: À la fin de ce processus, chaque mot est représenté par un vecteur
 * Faire vérifier un bout de code
 * toujours besoin de vérifier les infos
 
+
 ### Github Copilot
 
 * Disponible pour Visual Studio Code, Visual Studio, Neovim, JetBrains
+
 
 ## ML.NET - Technologie .NET pour le Machine Learning
 

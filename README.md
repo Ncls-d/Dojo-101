@@ -5,74 +5,87 @@
 
 [![License: GNU GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Aif4thah/Dojo-101/pulls)
-[![Donate Ethereum](https://img.shields.io/badge/ETH-donate-4E8EE9.svg?style=flat-square&logo=ethereum)](https://etherscan.io/address/0xcC424e30Ff6eEAb4E6B3A900c5446038F858b314)
-[![Buy me a coffee](https://img.shields.io/badge/buy%20me%20a-coffee-yellow)](https://www.buymeacoffee.com/taisensolutions)
+![GitHub last commit](https://img.shields.io/github/last-commit/Aif4thah/Dojo-101)
 
-Dojo-101 est un projet de capitalisation d'expérience et de connaissances en cybersécurité.
+Dojo-101 is a project for capturing experience and knowledge in cybersecurity.
 
-Minimaliste, utilisable hors-ligne et principalement en français 🇫🇷, sa raison d'être est le partage gratuit de la connaissance.
+Usable offline with a simple text editor, its purpose is to freely share knowledge.
 
-[Avant tout usage, merci de prendre connaissance de l'avis de non-responsabilité du projet](./CODE_OF_CONDUCT.md)
+### Language :
 
-## 💡 Principe
+[![fr](https://img.shields.io/badge/Français-🇫🇷-blue.svg)](./README-fr.md)
+[![en](https://img.shields.io/badge/English-🇬🇧-red.svg)](./README.md)
 
-![Principe](./Capitalisation.drawio.svg)
+> ⚠️ [Before using, please read the project’s disclaimer](./CODE_OF_CONDUCT.md)
 
-## 👉 C'est parti !
 
-Les fichiers comportant le mot "bascis" contiennent les éléments ensuite considérés comme des prérequis. Voici quelques suggestions :
+## 💡 Principle
 
-* [Les bases de la cyber](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Basics-fondamentaux.md)
-* [les bases de Linux](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Linux-Basics.md)
-* [les bases de powershell](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Powershell-basics.md)
-* [les bases de python](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-DevSec/Python-basics.md)
-* [les bases de la Radio](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-RF/RF-basics.md)
-* [les bases de GitHub](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-DevSec/Github-basics.md)
+![Principe](./Capitalisation.drawio.png)
 
-Vous pouvez ensuite parcourir les fiches selon vos envies.
 
-## ⚔️ Thématiques
+## 👉 Let’s get started!
 
-* [Développement sécurisé](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-DevSec)
-* [Administration sécurisée](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-SecOps)
+Files containing the word “basics” contain elements that are subsequently considered prerequisites. Here are some suggestions:
+
+* [Cyber basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Basics-fondamentaux.md)
+* [Linux basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Linux-Basics.md)
+* [Powershell basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-SecOps/Powershell-basics.md)
+* [Python basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-DevSec/Python-basics.md)
+* [Radio basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-RF/RF-basics.md)
+* [GitHub basics](https://github.com/Aif4thah/Dojo-101/blob/main/Dojo-101-DevSec/Github-basics.md)
+
+
+## ⚔️ Themes
+
+* [Secure development](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-DevSec)
+* [Secure administration](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-SecOps)
 * [Pentest](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-Pentest)
 * [Forensic](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-Forensic)
-* [Radiofréquences](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-RF)
-
-## 💾 Usage
+* [Radio frequencies](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-RF)
 
 
-1. Télécharger le projet
-2. Ouverture du répertoire entier dans un éditeur de texte moderne (ex: `VScode`)
-3. Rechercher par mot-clé dans l'ensemble des fichiers (ex: `basics`, `windows`, `linux`)
-4. Visualiser le contenu au format html (`ctrl`+`shift` +`V`)
+## ⬇️ Installation
 
-Exemple avec Windows et VScode :
+0.  If you are using Windows (client) and do not have Git installed : `winget install git.git `
+1. `git clone https://github.com/Aif4thah/Dojo-101.git` 
+2. The content is regularly updated, so remember to do a `git pull` before using it.
 
-```powershell
-winget install git.git
-git clone https://github.com/Aif4thah/Dojo-101.git
-code .\Dojo-101\
-```
 
-![demo](./demo.gif)
+## 📖 Usage
 
-Le contenu est mis à jour régulièrement, pensez à faire un `git pull` avant de l'utiliser.
+This project is designed to not depend on **any third-party software**; your text/code editor is the only tool you need to searching, reading or modifying.
+
+As an example, you can open `DOJO-101` directory with [VSCodium](https://github.com/VSCodium/vscodium) to :
+
+* Search by keyword across all files (e.g., `basics`, `Windows`, `Linux`)
+* Read the content in `HTML` format (`ctrl`+`shift` +`V`)
+
+<p align="center">
+    <img src="./VScodium-demo.gif" alt="Dojo-101-vscodium" style="width: 500px;" />
+</p>
+
 
 ## 🤝 Contributions
 
-* [Recommandations pour les contributeurs](./CONTRIBUTING)
+* [Contributor guidelines](./CONTRIBUTING)
 
-## 🚨 Sécurité
+## 🚨 Security
 
-* [À propos de la sécurité du projet](./SECURITY.md)
+* [About project security](./SECURITY.md)
 
-## 🏆 Crédits
+## 🌱 Learning
 
-* Projet maintenu par [Michael Vacarella](https://github.com/Aif4thah)
-* Logo réalisé par [@designbyzen](https://www.designbyzen.fr/)
-* **Merci** à tous les contributeurs 😍
+* [Professional scenarios](https://github.com/Aif4thah/Dojo-101/tree/main/Dojo-101-Apprentissage)
 
+## 🧪 Test your skills
 
+Developed in parallel, this application contains numerous vulnerabilities for testing your knowledge :
 
+* [VulnerableLightApp](https://github.com/Aif4thah/VulnerableLightApp)
 
+## 🏆 Credits
+
+* Project maintained by [Michael Vacarella](https://github.com/Aif4thah)
+* Logo created by [@designbyzen](https://www.designbyzen.fr/)
+* **Thank you** to all contributors 😍

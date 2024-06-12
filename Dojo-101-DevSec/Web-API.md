@@ -66,7 +66,42 @@ Attacking GraphQL   291
 /altair
 /playground
 
-### exemples
+### exemples GraphQL
+
+#### Requetes classiques:
+
+lister les noms et pays de tous les clients :
+
+```json
+query {clients { name, country } }
+```
+
+Obtenir le client avec l'id 1
+
+```json
+query { client (id:1) { name, country } }
+```
+
+Appeller une fonction spécifique
+
+```json
+{
+ clientsByCountry(countryId: 1) {
+    id
+    name
+    country
+  }
+}
+```
+
+
+#### récupération du shéma (introspection)
+
+```json
+{
+    "query": "{__schema{queryType{name}}}"
+}
+```
 
 #### exemple type d'injection GraphQL retournant le fichier /etc/passwd
 
